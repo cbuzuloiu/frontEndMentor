@@ -118,3 +118,36 @@ tr:not(:last-child) {
 td {
   border: none;
 }
+
+@media only screen and (max-width: 600px) {
+  img {
+    width: 375px;
+  }
+
+  body {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .container {
+    width: 375px;
+    background-color: white;
+    padding: 0px;
+    border-radius: 0px;
+  }
+
+  h1,
+  h2,
+  h3,
+  p,
+  ul,
+  ol {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  table {
+    width: 90%; /* Optional: Adjust width if needed */
+    margin: 20px 20px; /* Add vertical spacing */
+  }
+}
